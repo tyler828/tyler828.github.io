@@ -54,12 +54,32 @@
         <form action="WUT.html">
             <p>
                 <label for="username">enter ur username pls:</label>
-                <input id="username" type="text" placeholder="8====D">
+                <input id="username" type="text" placeholder="8====D" required>
             </p>
             <p>
                 <label for="password">enter ur password pls: </label>
                 <input id="password" type="password" placeholder="8==D">
             </p>
+
+            <p>
+                <label for="s">s</label>
+                <input type="radio" name="size" value="s" id="s">
+
+                <label for="m">m</label>
+                <input type="radio" name="size" value="m" id="m">
+
+                <label for="l">l</label>
+                <input type="radio" name="size" value="l" id="l">
+            </p>
+
+            <label for="pet-select">choose a pet:</label>
+            <select name="pets" id="pet-select">
+                <option value="">---please select an option---</option>
+                <option value="cat">cat</option>
+                <option value="dog">dog</option>
+                <option value="hamster">hamster</option>
+                <option value="goldfish">goldfish</option>
+            </select>
             <button>submit</button>
         </form>
     </div>
