@@ -1,14 +1,26 @@
 body {
-    background-color: #eeeeee;
-    color: #050505;
+    background-color: #ef476f;
 }
 
-h3 {
-    color: #e76f51;
+#title {
+    color: #06d6a0;
     letter-spacing: 1px;
     font-size: 70px;
     font-family:  monospace;
     text-align: center;
+    background-color: #118ab2;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    transition: .7s;
+    border-radius: 50px;
+}
+
+#title:hover{
+    border-radius: 50%;
+    background-color: #06d6a0;
+    color: #118ab2;
 }
 
 p, h4 {
@@ -18,11 +30,29 @@ p, h4 {
     text-align: center;
 }
 
+.bfacts {
+    margin-bottom: 30px;
+}
+
 table {
+    border-collapse: collapse;
     background-color: #f4a261;
     margin-left: auto;
     margin-right: auto;
+    padding: 10px 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #333333;
 }
+
+th, td {
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #333333;
+}
+
+
 
 input:hover{
     background-color: #dddddd;
