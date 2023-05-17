@@ -1,3 +1,3 @@
 # Fun
 
-> tyler828.github.io/Fun <
+tyler828.github.io/fun
