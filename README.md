@@ -1,3 +1,1 @@
-# Fun
-
-tyler828.github.io/fun
+[tyler828.github.io](tyler828.github.io)
