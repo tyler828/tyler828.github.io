@@ -1,1 +1,1 @@
-[tyler828.github.io](https://tyler828.github.io)
+check it out: [tyler828.github.io](https://tyler828.github.io)

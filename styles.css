@@ -18,7 +18,7 @@ body {
     border: 7px solid rgba(255, 240, 181, 0);
 }
 
-#title:hover{
+#title:hover {
     border-radius: 50%;
     background-color: #06d6a0;
     color: #118ab2;
@@ -66,15 +66,10 @@ input:hover{
     color:#f6708f;
 }
 
-/* .buffer {
-    width: 50px;
-    height:50px;
-    background-color: blue;
-} */
 .scontainer {
     height: 120px;
+    display: flex;
 }
-
 
 .shape {
     margin-right: auto;
@@ -84,20 +79,31 @@ input:hover{
     height:100px;
     background-color: #118ab2;
     border: 5px solid #073b4c;
-    border-radius: 10%;
+    border-radius: 20% 40%;
+    
+    transition: .5s;
 }
 
-.shape:hover {
+.shape:nth-last-of-type(even):hover {
     background-color: #06d6a0;
     border-color: #118ab2;
 
     border-radius: 50%;
+}
 
-    transition: .5s;
+.shape:nth-last-of-type(odd):hover {
+    background-color: #ffd166;
+    border-color: #118ab2;
+
+    border-radius: 50%;
 }
 
 .shape:active {
-	width: .9em;
-	height: .9em;
+	width: 90px;
+	height: 90px;
     transition-duration: 0s;
+}
+
+.buffer {
+    height:50px;
 }
