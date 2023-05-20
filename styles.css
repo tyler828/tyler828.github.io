@@ -25,11 +25,32 @@ body {
     border: 7px solid #ffd166;
 }
 
-p, h4 {
+hr {
+    border: 2px solid ;
+    border-radius: 2px;
+    width: 90%;
+    margin:0 auto;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
     line-height: 1.6;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
     text-align: center;
+}
+
+h4 {
+    line-height: 1.6;
+    text-align: center;
+    font-family: monospace;
+    font-size: 2em;
+    color: #EAE2B7;
+    letter-spacing: 2px;
 }
 
 .bfacts {
@@ -41,6 +62,7 @@ table {
     background-color: #f4a261;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 15px;
     border-style: solid;
     border-width: 2px;
     border-color: #333333;
@@ -69,6 +91,7 @@ input:hover{
 .scontainer {
     height: 120px;
     display: flex;
+    justify-content: flex-start;
 }
 
 .shape {
