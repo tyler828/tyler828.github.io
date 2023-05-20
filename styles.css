@@ -39,6 +39,7 @@ a {
 
 p {
     line-height: 1.6;
+    margin-top: -15px;
     padding-left: 100px;
     padding-right: 100px;
     text-align: center;
