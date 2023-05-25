@@ -14,6 +14,7 @@ body {
     margin-right: auto;
     width: 14em;
     transition: .7s;
+    transition-timing-function: ease-in-out;
     border-radius: 50px;
     border: 7px solid rgba(255, 240, 181, 0);
 }
@@ -90,12 +91,12 @@ input:hover{
 }
 
 .scontainer {
-    height: 120px;
+    height: 140px;
     display: flex;
-    justify-content: flex-start;
 }
 
 .shape {
+
     margin-right: auto;
     margin-left: auto;
 
@@ -108,14 +109,18 @@ input:hover{
     transition: .5s;
 }
 
-.shape:nth-last-of-type(even):hover {
+.shape:nth-of-type(even):hover {
     background-color: #06d6a0;
     border-color: #118ab2;
 
+    width: 120px;
+    height: 70px;
     border-radius: 50%;
+    transform-origin: center;
+    transform: rotate(45deg);
 }
 
-.shape:nth-last-of-type(odd):hover {
+.shape:nth-of-type(odd):hover {
     background-color: #ffd166;
     border-color: #118ab2;
 
