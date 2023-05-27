@@ -27,11 +27,10 @@ body {
 }
 
 hr {
-    border: 2px solid ;
+    border: 2px solid rgb(0, 0, 0, .7);
     border-radius: 2px;
     width: 90%;
     margin:0 auto;
-
 }
 
 a {
@@ -128,8 +127,7 @@ input:hover{
 }
 
 .shape:active {
-	width: 90px;
-	height: 90px;
+	transform: scale(.9);
     transition-duration: 0s;
 }
 
