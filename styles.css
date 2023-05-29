@@ -39,9 +39,9 @@ a {
 
 p {
     line-height: 1.6;
-    margin-top: -15px;
-    padding-left: 100px;
-    padding-right: 100px;
+    margin: 0 auto;
+    width: 60%;
+
     text-align: center;
 }
 
@@ -54,16 +54,10 @@ h4 {
     letter-spacing: 2px;
 }
 
-.bfacts {
-    margin-bottom: 30px;
-}
-
 table {
     border-collapse: collapse;
     background-color: #f4a261;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15px;
+    margin: 25px auto 15px;
     border-style: solid;
     border-width: 2px;
     border-color: #333333;
@@ -108,12 +102,14 @@ input:hover{
     transition: .5s;
 }
 
-.shape:nth-of-type(even):hover {
-    background-color: #06d6a0;
-    border-color: #118ab2;
+.shape:hover{
+    cursor: pointer;
+}
 
-    width: 120px;
-    height: 70px;
+.shape:nth-of-type(even):hover {
+    background-color: #06c6a0;
+    border-color: #118ab2;
+    
     border-radius: 50%;
     transform-origin: center;
     transform: rotate(45deg);
@@ -127,7 +123,7 @@ input:hover{
 }
 
 .shape:active {
-	transform: scale(.9);
+	transform: scale(.95);
     transition-duration: 0s;
 }
 
